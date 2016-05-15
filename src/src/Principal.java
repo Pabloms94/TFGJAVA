@@ -21,7 +21,6 @@ public class Principal {
 	static double []x = new double[60];
 	
 	public static void main(String[] args) throws FileNotFoundException {
-		// TODO Auto-generated method stub
 		JsonParser parser = new JsonParser();
 		FileReader fr = new FileReader("../../C/integralesV2/prueba1.json");
 		JsonElement datos1 = parser.parse(fr);
